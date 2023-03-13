@@ -1,0 +1,49 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: hsl(229, 24%, 87%);
+}
+main {
+    margin: auto;
+}
+.main-container {
+    width: 55em;
+    background-color: white;
+}
+.main-left {
+    background-image: url('./images/bg-sidebar-desktop.svg');background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 95%;
+    font-size: 13px;
+    color: white;
+}
+  .stage {
+    width: 70%;
+}
+  .stage-number {
+    border: 1px solid hsl(206, 94%, 87%);
+}
+  .stage .active {
+    background-color: hsl(206, 94%, 87%);
+    color: black;
+}
+.main-right {
+    width: 65%;
+}
+.main-right p {
+    color: hsl(231, 11%, 63%);
+}
+.main-right form {
+    width: 80%;
+    margin: auto;
+}
+.btn-div {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+form button {
+    background-color: hsl(213, 96%, 18%) !important;
+}
