@@ -1,0 +1,134 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: hsl(217, 100%, 97%);
+}
+main {
+  margin: auto;
+}
+.main-container {
+  width: 50em;
+  background-color: white;
+}
+.main-left {
+  background-image: url('./images/bg-sidebar-desktop.svg');background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  height: 95%;
+  font-size: 13px;
+  color: white;
+}
+.stage {
+  width: 70%;
+}
+.stage-number {
+  border: 1px solid hsl(206, 94%, 87%);
+}
+.stage .active {
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+}
+.main-right {
+  width: 75%;
+}
+.main-right p {
+  font-size: 14px;
+  color: hsl(231, 11%, 63%);
+}
+.main-right form {
+  width: 75%;
+  margin: auto;
+}
+.sub-plan-group p{
+  font-size: 12px;
+  line-height: 150%;
+}
+.sub-plan-group span {
+  font-size: 14px;
+}
+.sub-plan {
+  width: 30%;
+  border: 1px solid hsl(231, 11%, 63%);
+}
+.sub-plan:hover {
+  cursor: pointer;
+}
+.monthly-yearly-switch {
+  background-color: hsl(217, 100%, 97%);
+  height: 2em;
+}
+.monthly-yearly-switch .monthly-p {
+  color: black;
+  font-size: 12px;
+}
+.monthly-yearly-switch .yearly-p {
+  font-size: 12px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(213, 96%, 18%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: hsl(213, 96%, 18%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(213, 96%, 18%);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.btn-div {
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+.btn-div a {
+  color: hsl(231, 11%, 63%);
+}
+form button {
+  background-color: hsl(213, 96%, 18%) !important;
+}
