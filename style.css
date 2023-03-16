@@ -9,6 +9,7 @@ main {
 }
 .main-container {
     width: 50em;
+    height: 32em;
     background-color: white;
 }
 .main-left {
@@ -40,6 +41,10 @@ main {
 .main-right form {
     width: 75%;
     margin: auto;
+}
+.form-control:focus {
+    border: 1px solid hsl(243, 100%, 62%);
+    box-shadow: none;
 }
 .btn-div {
     margin-top: 4em;

@@ -9,6 +9,7 @@ main {
 }
 .main-container {
   width: 50em;
+  height: 32em;
   background-color: white;
 }
 .main-left {

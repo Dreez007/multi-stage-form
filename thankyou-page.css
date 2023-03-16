@@ -38,39 +38,7 @@ main {
   font-size: 14px;
   color: hsl(231, 11%, 63%);
 }
-.main-right .main-right-container {
+.main-right-container {
   width: 75%;
   margin: auto;
-}
-.main-right .summary-container {
-  background-color: hsl(231, 100%, 99%);
-}
-.main-right .summary-container p, .main-right .summary-container a{
-  color: hsl(231, 11%, 63%);
-}
-.plan-summary {
-  border-bottom: 2px solid hsl(231, 11%, 63%);
-}
-.add-on-summary p {
-  font-size: 12px;
-}
-.total {
-  width: 95%;
-}
-.total p {
-  font-size: 12px;
-}
-.total span {
-  font-size: 16px;
-  color: hsl(243, 100%, 62%);
-}
-.btn-div {
-  margin-top: 6em;
-  margin-bottom: 2em;
-}
-.btn-div a {
-  color: hsl(231, 11%, 63%);
-}
-.main-right-container button {
-  background-color: hsl(243, 100%, 62%) !important;
 }
